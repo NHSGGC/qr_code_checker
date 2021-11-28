@@ -38,6 +38,7 @@ if __name__ == "__main__":
             out = ''
             for category, urls in data.items():
                 for url in urls:
+                    print(url)
                     resp = httpx.get(url, headers=headers, timeout=60)
                     if resp.status_code != 200:
                         out += "<li><b>{}</b>: {} (status {})</li>".format(category, url, resp.status_code)

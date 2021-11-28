@@ -1,3 +1,5 @@
 /token.pickle
 /credentials.json
 /venv/
+/qr_errors.txt
+/qr_checks.txt
