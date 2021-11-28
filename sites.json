@@ -1,0 +1,47 @@
+{
+  "Foodbanks": ["https://www.urbanroots.org.uk/freefood/"],
+  "Finance": ["https://www.moneyadvicescotland.org.uk"],
+  "Housing": ["https://www.glasgow.gov.uk/housingoptions"],
+  "Childcare": ["https://www.gfis.org.uk"],
+  "Stress & Anxiety": ["https://breathingspace.scot"],
+  "Mental Health & Depression": [
+    "https://www.samh.org.uk/about-mental-health/mental-health-problems",
+    "https://youngminds.org.uk",
+    "https://www.mind.org.uk"
+  ],
+  "Healthy Eating": ["https://www.foodstandards.gov.scot/consumers/healthy-eating"],
+  "Sleep": ["https://www.sleepscotland.org"],
+  "Additional support needs": [
+    "https://www.nhsggc.org.uk/kids/resources-for-covid-19/resources-for-covid-19-families/resources-for-families-supporting-childrenyoung-people-with-additional-support-needs/",
+    "https://enquire.org.uk/advice-for-parents/"
+  ],
+  "Cultural Diversity": ["https://thewell.org.uk"],
+  "Body image": ["https://www.beateatingdisorders.org.uk"],
+  "Bullying": ["https://respectme.org.uk"],
+  "LGBTQ+": [
+    "https://www.lgbthealth.org.uk",
+    "https://www.lgbtyouth.org.uk"
+  ],
+  "Bereavement - For children": [
+    "https://www.childbereavementuk.org/glasgow",
+    "https://www.cruse.org.uk"
+  ],
+  "Single Parent": [
+    "https://opfs.org.uk",
+    "https://www.sharedparenting.scot"
+  ],
+  "Domestic Abuse": ["http://www.glasgowwomensaid.org.uk/"],
+  "Human Trafficking": ["https://www.tarascotland.org.uk"],
+  "Suicide": [
+    "https://www.samaritans.org/?nation=scotland",
+    "https://www.papyrus-uk.org"
+  ],
+  "Substance abuse": ["https://www.sfad.org.uk/"],
+  "Covid": ["https://www.nhsggc.org.uk/kids/resources-for-covid-19/resources-for-covid-19-families/parenting-resources/"],
+  "Imprisonment": ["https://www.familiesoutside.org.uk"]
+}
+
+
+
+
+
