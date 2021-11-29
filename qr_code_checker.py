@@ -46,8 +46,8 @@ if __name__ == "__main__":
             creds = authenticate_google_credentials()
             body = EMAIL_BODY.format(out)
             send_email(creds, body)
-            with open("qr_checks.txt", 'w') as f:
-                f.write(timestamp)
+        with open("qr_checks.txt", 'w') as f:
+            f.write(timestamp)
     except Exception as e:
         with open("qr_errors.txt", 'w') as f:
             f.write("{}: {}".format(timestamp, e))
