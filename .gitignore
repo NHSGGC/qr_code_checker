@@ -3,3 +3,5 @@
 /venv/
 /qr_errors.txt
 /qr_checks.txt
+.venv
+*.pyc
