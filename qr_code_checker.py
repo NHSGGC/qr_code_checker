@@ -40,14 +40,14 @@ if __name__ == "__main__":
                 for url in urls:
                     print(url)
                     resp = httpx.get(url, headers=headers, timeout=60)
-                    if resp.status_code != 200:
+                    if resp.status_code not in  (200, 301):
                         out += "<li><b>{}</b>: {} (status {})</li>".format(category, url, resp.status_code)
         if out:
             creds = authenticate_google_credentials()
             body = EMAIL_BODY.format(out)
             send_email(creds, body)
-        with open("qr_checks.txt", 'w') as f:
-            f.write(timestamp)
+        with open("qr_checks.txt", 'a') as f:
+            f.write(timestamp + "\n")
     except Exception as e:
-        with open("qr_errors.txt", 'w') as f:
-            f.write("{}: {}".format(timestamp, e))
+        with open("qr_errors.txt", 'a') as f:
+            f.write("{}: {}\n".format(timestamp, e))
